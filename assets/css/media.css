@@ -1,0 +1,207 @@
+@media (max-width: 1530px) {
+   .header-tel {
+      display: none;
+   }
+}
+@media (max-width: 1400px) {
+   .header-nav ul li a::after {
+      display: none;
+   }
+   .header-nav {
+      column-gap: 15px;
+   }
+   .header .logo {
+      margin-right: 20px;
+   }
+   .header-nav ul li a {
+      padding: 9px 15px;
+   }
+   .info img {
+      display: none;
+   }   
+}
+@media (max-width: 1200px) {
+   .appartments-form form {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 20px;
+   }
+   .header .logo {
+      width: 106px;
+      height: 33px;
+   }
+   .header-btn {
+      padding: 10px 20px;
+   }
+   .header-nav ul li a {
+      padding: 10px;
+   }
+   .menu-row {
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+@media (max-width: 991px) {
+   .header-nav {
+      visibility: hidden;
+      opacity: 0;
+      flex-direction: column;
+      z-index: 20;
+      position: absolute;
+      top: 82px;
+      right: 0;
+      transform: translateX(110%);
+      max-width: 393px;
+      width: 100%;
+      max-height: 722px;
+      background-color: var(--light-color);
+      padding: 44px 15px 76px;
+      align-items: start;
+   }
+   .header-nav ul {
+      flex-direction: column;
+      margin-bottom: 60px;
+   }
+   .header-nav ul li img {
+      display: block;
+   }
+   .header-nav ul li:last-child {
+      display: flex;
+   }
+   .header-nav ul li a {
+      font-size: 18px;
+      line-height: 21px;
+      padding: 16.5px 0;
+   }
+   .header-mobile-tel {
+      display: flex;
+   }
+   .header-burger {
+      margin-left: auto;
+      display: flex;
+   }
+   .header-btn {
+      padding: 15px 33px;
+   }
+   .info-row {
+      flex-wrap: wrap;
+   }
+   .menu {
+      padding: 30px 0;
+   }
+   .menu-row {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .menu-item-img {
+      height: 210px;
+   }
+   .menu-item h3 {
+      font-size: 18px;
+      line-height: 25px;
+   }
+}
+@media (max-width: 768px) {
+   .header {
+      padding: 25px 0;
+   }
+   .appartments-inputs {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .hero {
+      padding-bottom: 61px;
+   }
+   .hero-content h1 {
+      max-width: 278px;
+      text-align: left;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 0;
+      margin-bottom: 15px;
+   }
+   .hero-content p {
+      max-width: 233px;
+      text-align: left;
+      font-size: 14px;
+      line-height: 23px;
+      margin: 0;
+      margin-bottom: 65px;
+   }
+   .appartments-form {
+      display: none;
+   }
+   .hero-mobile-btns {
+      display: flex;
+   }
+   .info {
+      padding: 60px 0 30px;
+   }
+   .info h2 {
+      max-width: 250px;
+      font-size: 24px;
+      line-height: 150%;
+   }
+   .info p {
+      line-height: 25px;
+   }
+   .info p span {
+      display: block;
+      margin-bottom: 25px;
+   }
+   .exclusive-offers {
+      padding: 30px 0;
+   }
+   .exclusive-offers-top {
+      margin-bottom: 30px;
+   }
+   .exclusive-offers-top h2 {
+      font-size: 24px;
+      line-height: 150%;
+   }
+   .exclusive-offers-btn {
+      display: none;
+   }
+   .exclusive-offers-cards .card {
+      max-width: 280px;
+   }
+   .exclusive-offers-cards .card .card-img {
+      height: 216px;
+   }
+   .exclusive-offers-cards .card .card-info {
+      padding: 15px 22px 19px 14px;
+   }
+   .exclusive-offers-cards .card .card-name {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 5px;
+   }
+   .exclusive-offers-cards .card-adress {
+      font-size: 12px;
+      margin-bottom: 17px;
+   }
+   .exclusive-offers-cards .card .card-date {
+      font-size: 12px;
+      margin-bottom: 5px;
+   }
+   .exclusive-offers-cards .card-icon {
+      right: 22px;
+      bottom: 19px;
+   }
+   .menu-row {
+      padding-bottom: 30px;
+   }
+   .exclusive-offers-mobile-btn {
+      display: flex;
+   }
+}
+@media (max-width: 500px) {
+   .menu-row {
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
+@media (max-width: 400px) {
+   .hero-mobile-btns {
+      flex-wrap: wrap;
+      row-gap: 20px;
+   }
+}
+
